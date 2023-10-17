@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d290863-6d58-4fb5-80cd-666e20e5b522">
+  <name>СуперКонф</name>
+  <synonym>
+    <key>ru</key>
+    <value>Супер конфингурация</value>
+  </synonym>
+  <comment>Для курса «Профессиональная разработка в 1С:EDT с использованием Git»</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a011225b-c154-4ce2-9798-845340b53a99"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="812ed896-4b61-4480-8708-e4323cbd9913"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f23d8bb3-6c88-42b4-b72a-794950a9b3fd"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="90319d28-ba0e-4cc9-b800-8c775e122d62"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e9360aac-1516-4ac6-bb17-04b0b2cc05ad"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4f7bbecc-435b-4e38-8f45-db053403f61d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fa7c4a69-bb33-4f31-ba72-757e6024541a"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="6a60c3f5-897d-44e9-856b-495a3872d6c6">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.Продажа</documents>
+</mdclass:Configuration>
